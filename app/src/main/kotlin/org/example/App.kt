@@ -11,6 +11,13 @@ fun main() {
         println("justo ese valor de a no")
     } else {
         println("se va a hacer la siguiente funcion: $a x² + $b x + $c")
+        fx(a, b ,c)
+    }
+}
+fun fx(a: Int, b: Int, c: Int) {
+    for (x in -5..5) {
+        var cuadr= a*x**2+b*x+c
+        println("el valor de y en x=$x es $cuadr") 
     }
 }
 
