@@ -1,6 +1,6 @@
 
 package org.example
-//Santiago Valla
+
 
 fun main() {
     
@@ -16,7 +16,7 @@ fun main() {
 }
 fun fx(a: Int, b: Int, c: Int) {
     for (x in -5..5) {
-        var cuadr= a*x**2+b*x+c
+        var cuadr = a*x*x+b*x+c
         println("el valor de y en x=$x es $cuadr") 
     }
 }
